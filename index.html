@@ -13,22 +13,32 @@
       <img src="https://upload.wikimedia.org/wikipedia/en/5/53/Snoopy_Peanuts.png" alt="Snoopy" class="snoopy" />
       <h1>Hola, Vitolia 💖</h1>
       <p>Esta no es una simple una app 😝 es un pequeño viaje hecho para ti ✨</p>
-      <button onclick="mostrarHistoria()">Empezar el viaje</button>
+      <button onclick="mostrarRecuerdo()">Empezar el viaje</button>
     </section>
 
-    <section class="historia oculto">
-      <h2>🌸 Nuestra historia 🌸</h2>
-      <p>Nos conocimos el <strong>6 de septiembre</strong>, en una fonda celebrando Fiestas Patrias 🇨🇱</p>
-      <p>Ese día fue la primera vez que vi tu sonrisa en persona... y desde entonces, me marcaste 💘</p>
-      <p>Eres inteligente, divertida, y en mis momentos difíciles siempre estás ahí para mí.</p>
-      <p>Conocí a tu hermosa familia, tan acogedora como tú 💕</p>
-      <button onclick="mostrarPropuesta()">Siguiente</button>
+    <!-- PRIMER RECUERDO -->
+    <section class="recuerdo oculto">
+      <h2>📅 6 de Septiembre</h2>
+      <p>Ese día recibí un mensaje tuyo que cambió todo...</p>
+      <img src="imagenes/IMG_E4309.JPG" alt="Mensaje fonda" class="foto" />
+      <p>Y desde esa fonda en fiestas patrias, mi corazón se quedó contigo ❤️</p>
+      <button onclick="mostrarFotos()">Siguiente</button>
     </section>
 
+    <!-- FOTOS JUNTOS -->
+    <section class="fotos oculto">
+      <h2>📸 Recuerdos juntos</h2>
+      <div class="galeria">
+        <img src="imagenes/foto1.jpg" alt="Foto 1" />
+        <img src="imagenes/foto2.jpg" alt="Foto 2" />
+        <!-- Puedes agregar más imágenes aquí -->
+      </div>
+      <button onclick="mostrarPropuesta()">Continuar</button>
+    </section>
+
+    <!-- PROPUESTA -->
     <section class="propuesta oculto">
-      <h2>💍 Propuesta 💍</h2>
-      <p>No sé cómo lo hiciste, pero ahora no quiero un día sin ti.</p>
-      <p>Así que aquí va la pregunta mágica...</p>
+      <h2>💍 Tengo algo que preguntarte...</h2>
       <h3>¿Quieres ser mi novia? 😳</h3>
       <div class="respuestas">
         <button onclick="responder('Sí, claro que sí 🥰')">Sí, claro que sí 🥰</button>
@@ -36,11 +46,11 @@
       </div>
     </section>
 
+    <!-- FINAL -->
     <section class="final oculto">
       <h2>🎉 ¡SÍ! 🎉</h2>
-      <p>Gracias por hacer de mi mundo un lugar más bonito.</p>
-      <p>Te prometo cuidarte, escucharte y aprender todos los idiomas contigo ❤️</p>
-      <p>Te amo, [Tu nombre]</p>
+      <p>¡Gracias por hacerme tan feliz! 💗</p>
+      <p>Ahora puedes abrir la carta que hice con todo mi corazón ✉️</p>
     </section>
   </div>
 </body>
