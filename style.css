@@ -1,3 +1,4 @@
+/* Estilo base para el cuerpo de la página */
 body {
   margin: 0;
   font-family: "Segoe UI", sans-serif;
@@ -9,6 +10,7 @@ body {
   min-height: 100vh;
 }
 
+/* Contenedor principal de la app */
 .container {
   max-width: 500px;
   padding: 20px;
@@ -18,10 +20,12 @@ body {
   box-shadow: 0 0 20px rgba(255, 182, 193, 0.5);
 }
 
+/* Títulos */
 h1, h2, h3 {
   color: #e91e63;
 }
 
+/* Botones */
 button {
   margin-top: 15px;
   padding: 12px 20px;
@@ -38,37 +42,69 @@ button:hover {
   background-color: #ff4081;
 }
 
+/* Ocultar secciones por defecto */
 .oculto {
   display: none;
 }
 
-.snoopy {
-  width: 100px;
+/* Estilo para las imágenes */
+.foto {
+  width: 100%;       /* Asegura que las imágenes ocupen todo el ancho disponible */
+  max-width: 400px;  /* Limita el tamaño máximo de las imágenes */
+  height: auto;      /* Mantiene la proporción de la imagen */
+  object-fit: cover; /* Ajusta la imagen sin deformarla */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega sombra a las imágenes */
+  margin-top: 15px;  /* Espaciado entre las imágenes y el contenido */
+}
+
+/* Estilo para la galería de imágenes */
+.galeria {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+.galeria img {
+  width: 100%;
+  max-width: 300px;  /* Ajusta el tamaño máximo de las imágenes dentro de la galería */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Estilo para la sección de broma */
+
+
+/* Estilo para las secciones de contenido */
+h1, h2, h3 {
+  color: #e91e63;
+}
+
+h2 {
+  font-size: 24px;
   margin-bottom: 10px;
 }
 
+h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Estilo para los botones de la respuesta */
 .respuestas button {
   display: block;
   width: 100%;
   margin: 10px 0;
 }
 
-.foto {
-  max-width: 80%;
-  height: auto;
-  border-radius: 10px;
-  margin-top: 15px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+.respuestas button:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
 }
 
-.galeria {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
 
-.galeria img {
-  width: 100%;
-  border-radius: 10px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
-}
+
+
+

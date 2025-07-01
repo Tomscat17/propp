@@ -12,46 +12,148 @@
     <section class="inicio">
       <img src="https://upload.wikimedia.org/wikipedia/en/5/53/Snoopy_Peanuts.png" alt="Snoopy" class="snoopy" />
       <h1>Hola, Vitolia 💖</h1>
-      <p>Esta no es una simple una app 😝 es un pequeño viaje hecho para ti ✨</p>
+      <p>Esta no es una simple app 😝 es un pequeño viaje hecho para ti ✨</p>
       <button onclick="mostrarRecuerdo()">Empezar el viaje</button>
     </section>
 
     <!-- PRIMER RECUERDO -->
     <section class="recuerdo oculto">
       <h2>📅 6 de Septiembre</h2>
-      <p>Ese día recibí un mensaje tuyo que cambió todo...</p>
+      <p>Ese día recibí un mensaje tuyo que cambió todo...😦</p>
       <img src="imagenes/IMG_E4309.JPG" alt="Mensaje fonda" class="foto" />
-      <p>Y desde esa fonda en fiestas patrias, mi corazón se quedó contigo ❤️</p>
+      <p>Y desde ese día en esa fonda te robaste mi corazón 👩‍❤️‍💋‍👨❤️</p>
       <button onclick="mostrarFotos()">Siguiente</button>
     </section>
 
-    <!-- FOTOS JUNTOS -->
-    <section class="fotos oculto">
-      <h2>📸 Recuerdos juntos</h2>
+    <!-- PRIMERAS FOTOS JUNTOS -->
+    <section class="fotos-juntos oculto">
+      <h2>📸 Nuestras primeras fotos juntos</h2>
       <div class="galeria">
-        <img src="imagenes/foto1.jpg" alt="Foto 1" />
-        <img src="imagenes/foto2.jpg" alt="Foto 2" />
-        <!-- Puedes agregar más imágenes aquí -->
+        <img src="imagenes/IMG_E4310.JPG" alt="Foto 1" />
+        <img src="imagenes/IMG_E4311.JPG" alt="Foto 2" />
       </div>
-      <button onclick="mostrarPropuesta()">Continuar</button>
+      <p>Literal ambas fueron el mismo día jj</p>
+      <button onclick="mostrarPrimeraCita()">Continuar</button>
     </section>
 
-    <!-- PROPUESTA -->
-    <section class="propuesta oculto">
-      <h2>💍 Tengo algo que preguntarte...</h2>
-      <h3>¿Quieres ser mi novia? 😳</h3>
+    <!-- PRIMERA CITA -->
+    <section class="primera-cita oculto">
+      <h2>🍽️ Nuestra primera cita y con nuestro hijo</h2>
+      <img src="imagenes/IMG_E4312.JPG" alt="Primera cita" class="foto" />
+      <button onclick="mostrarViajeMuseos()">Continuar</button>
+    </section>
+
+    <!-- VIAJE A LA NOCHE DE LOS MUSEOS -->
+    <section class="viaje-museos oculto">
+      <h2>🎨 Cuando fuimos a la noche de los museos</h2>
+      <div class="galeria">
+        <img src="imagenes/IMG_E4313.JPG" alt="Museo 1" />
+        <img src="imagenes/IMG_E4314.JPG" alt="Museo 2" />
+      </div>
+      <p>Me gustó mucho ese día, todo bonito</p>
+      <button onclick="mostrarChurros()">Continuar</button>
+    </section>
+
+    <!-- DÍA DE LOS CHURROS -->
+    <section class="churros oculto">
+      <h2>🍩 Cuando fuimos a comer churros</h2>
+      <p>Y se me cayó el manjar… 😔</p>
+      <img src="imagenes/IMG_E4315.JPG" alt="Churros" class="foto" />
+      <button onclick="mostrarParqueUrbano()">Continuar</button>
+    </section>
+
+    <!-- PARQUE URBANO -->
+    <section class="parque-urbano oculto">
+      <h2>🌳 Nosotros en el parque urbano</h2>
+      <img src="imagenes/IMG_E4316.JPG" alt="Parque Urbano" class="foto" />
+      <button onclick="mostrarBonita()">Continuar</button>
+    </section>
+
+    <!-- ELLA MUY BONITA -->
+    <section class="bonita oculto">
+      <h2>👸 Tu, muy bonita como siempre</h2>
+      <img src="imagenes/IMG_E4317.JPG" alt="Ella bonita" class="foto" />
+      <p>Me gusta mucho esta foto, muy muy limda</p>
+      <button onclick="mostrarEmma()">Continuar</button>
+    </section>
+
+    <!-- LA EMMA -->
+    <section class="emma oculto">
+      <h2>🐶 La Emma</h2>
+      <div class="galeria">
+        <img src="imagenes/IMG_E4318.JPG" alt="Emma 1" />
+        <img src="imagenes/IMG_E4319.JPG" alt="Emma 2" />
+      </div>
+      <button onclick="mostrarCorral()">Continuar</button>
+    </section>
+
+    <!-- VIAJE A CORRAL -->
+    <section class="corral oculto">
+      <h2>🚢 Cuando fuimos a corral</h2>
+      <div class="galeria">
+        <img src="imagenes/IMG_E4320.JPG" alt="Corral 1" />
+        <img src="imagenes/IMG_E4321.JPG" alt="Corral 2" />
+      </div>
+      <p>Estuvo muy weno, ojalá repetir</p>
+      <button onclick="mostrarPlaza()">Continuar</button>
+    </section>
+
+    <!-- DÍA EN LA PLAZA -->
+    <section class="plaza oculto">
+      <h2>❄️ Día en la plaza, taba helao</h2>
+      <img src="imagenes/IMG_E4322.JPG" alt="Plaza" class="foto" />
+      <button onclick="mostrarFantasilandia()">Continuar</button>
+    </section>
+
+    <!-- FANTASILANDIA -->
+    <section class="fantasilandia oculto">
+      <h2>🎢  Nosotros en Fantasilandia</h2>
+      <img src="imagenes/IMG_E4323.JPG" alt="Fantasilandia" class="foto" />
+      <p>Me gustó mucho ese día de vdd, este año vamos de nuevo 😈</p>
+      <button onclick="mostrarDiaNormal()">Continuar</button>
+    </section>
+
+    <!-- DÍA NORMAL EN CASA -->
+    <section class="dia-normal oculto">
+      <h2>🏠 En mi pieza</h2>
+      <img src="imagenes/IMG_E4326.JPG" alt="Día normal" class="foto" />
+      <p>Esta foto igual me gusta mucho, la enmarcaría</p>
+      <button onclick="mostrarPropuestaInicial()">Continuar</button>
+    </section>
+
+    
+
+    <!-- PROPUESTA INICIAL -->
+    <section class="propuesta-inicial oculto">
+      <h2>💍 Tengo algo que quisiera preguntarte...</h2>
+      <button onclick="mostrarPregunta()">Continuar</button> <!-- Botón para pasar a la siguiente sección -->
+    </section>
+
+    <!-- PREGUNTA DE "QUIERES SER MI NOVIA?" -->
+    <section class="propuesta-pregunta oculto">
+      <h2>¿Quieres ser mi novia? 😳</h2>
       <div class="respuestas">
         <button onclick="responder('Sí, claro que sí 🥰')">Sí, claro que sí 🥰</button>
-        <button onclick="responder('¡Obvio! Estoy feliz 💖')">¡Obvio! Estoy feliz 💖</button>
+        <button onclick="mostrarBroma()">No 😞</button> <!-- Botón para "No" -->
       </div>
+    </section>
+
+    <!-- FOTO Y MENSAJE DE BROMA (oculta por defecto) -->
+    <section class="broma oculto">
+      <img src="imagenes/IMG_E4325.JPG" alt="Es broma amor" class="foto" />
+      <p>Bromita 💖</p>
+      <!-- Botón para volver a la propuesta -->
+      <button onclick="volverAPropuesta()">Volver</button>
     </section>
 
     <!-- FINAL -->
     <section class="final oculto">
-      <h2>🎉 ¡SÍ! 🎉</h2>
+      <h2>🎉 ¡Siuu! 🎉</h2>
       <p>¡Gracias por hacerme tan feliz! 💗</p>
-      <p>Ahora puedes abrir la carta que hice con todo mi corazón ✉️</p>
+      <p>No tengo palabras para explicar lo muxo que te amo</p>
     </section>
   </div>
 </body>
 </html>
+
+
