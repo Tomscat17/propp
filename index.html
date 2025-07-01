@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>¿Quieres ser mi novia?</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <section class="inicio">
+      <img src="https://upload.wikimedia.org/wikipedia/en/5/53/Snoopy_Peanuts.png" alt="Snoopy" class="snoopy" />
+      <h1>Hola, Vitolia 💖</h1>
+      <p>Esta no es una simple una app 😝 es un pequeño viaje hecho para ti ✨</p>
+      <button onclick="mostrarHistoria()">Empezar el viaje</button>
+    </section>
+
+    <section class="historia oculto">
+      <h2>🌸 Nuestra historia 🌸</h2>
+      <p>Nos conocimos el <strong>6 de septiembre</strong>, en una fonda celebrando Fiestas Patrias 🇨🇱</p>
+      <p>Ese día fue la primera vez que vi tu sonrisa en persona... y desde entonces, me marcaste 💘</p>
+      <p>Eres inteligente, divertida, y en mis momentos difíciles siempre estás ahí para mí.</p>
+      <p>Conocí a tu hermosa familia, tan acogedora como tú 💕</p>
+      <button onclick="mostrarPropuesta()">Siguiente</button>
+    </section>
+
+    <section class="propuesta oculto">
+      <h2>💍 Propuesta 💍</h2>
+      <p>No sé cómo lo hiciste, pero ahora no quiero un día sin ti.</p>
+      <p>Así que aquí va la pregunta mágica...</p>
+      <h3>¿Quieres ser mi novia? 😳</h3>
+      <div class="respuestas">
+        <button onclick="responder('Sí, claro que sí 🥰')">Sí, claro que sí 🥰</button>
+        <button onclick="responder('¡Obvio! Estoy feliz 💖')">¡Obvio! Estoy feliz 💖</button>
+      </div>
+    </section>
+
+    <section class="final oculto">
+      <h2>🎉 ¡SÍ! 🎉</h2>
+      <p>Gracias por hacer de mi mundo un lugar más bonito.</p>
+      <p>Te prometo cuidarte, escucharte y aprender todos los idiomas contigo ❤️</p>
+      <p>Te amo, [Tu nombre]</p>
+    </section>
+  </div>
+</body>
+</html>
